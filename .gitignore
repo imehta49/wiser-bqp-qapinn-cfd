@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets and local configuration
+.env
+*.pem
+*.key
+credentials.json
+
+# Generated training artefacts
+outputs/
+runs/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.npy
+*.npz
+*.zip
+
+# Keep the curated small result files under results/
+!results/**/*.csv
+!results/**/*.json
+!results/**/*.png
+!results/**/*.md
+
+# Large CFD files
+*.vtk
+*.vtu
+*.cgns
+*.su2
+*.msh
+*.h5
+*.hdf5

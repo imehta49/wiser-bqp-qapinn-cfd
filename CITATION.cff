@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite this repository if you use its code or results."
+title: "Explainable Quantum-Assisted PINNs for CFD"
+type: software
+authors:
+  - family-names: "Project contributors"
+    given-names: "WISER/BQP 2026 team"
+version: 0.1.0
+date-released: 2026-08-05
+license: MIT
+repository-code: "https://github.com/YOUR_USERNAME/wiser-bqp-qapinn-cfd"

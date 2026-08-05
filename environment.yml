@@ -1,0 +1,16 @@
+name: wiser-qapinn-cfd
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy>=1.26
+  - scipy>=1.11
+  - pandas>=2.1
+  - matplotlib>=3.8
+  - psutil>=5.9
+  - pytest>=8.0
+  - pytorch>=2.2
+  - pip
+  - pip:
+      - pennylane>=0.40

@@ -1,0 +1,24 @@
+{
+  "profile": "baseline",
+  "viscosity": "0.1/pi",
+  "seed": 0,
+  "precision": "float64",
+  "network": {
+    "width": 64,
+    "hidden_layers": 5,
+    "activation": "tanh",
+    "hard_constraints": true
+  },
+  "sampling": {
+    "interior_bank": 20000,
+    "interior_batch": 4096,
+    "method": "Latin hypercube"
+  },
+  "optimisation": {
+    "adam_epochs": 10000,
+    "adam_learning_rate": 0.001,
+    "adam_min_learning_rate": 0.00001,
+    "lbfgs_iterations": 300,
+    "lbfgs_points": 5000
+  }
+}

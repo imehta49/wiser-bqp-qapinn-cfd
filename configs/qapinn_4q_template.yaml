@@ -1,0 +1,19 @@
+# Planned experiment template. The QAPINN implementation is not yet included.
+problem: burgers_smooth
+seed: 0
+precision: float64
+quantum_layer:
+  qubits: 4
+  encoding: angle
+  data_reuploading_blocks: 1
+  trainable_layers: 1
+  entanglement: ring
+  measurements:
+    - local_Z
+classical_decoder:
+  hidden_layers: 2
+  width: 32
+comparison_controls:
+  reuse_saved_collocation_points: true
+  parameter_matched_classical_model: true
+  fourier_feature_baseline: true
