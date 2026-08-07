@@ -11,13 +11,13 @@ The project begins with the one-dimensional viscous Burgers equation, then progr
 | Section | Experiment | Status |
 |---|---|---|
 | 01 | Hard-constrained classical PINN for smooth Burgers equation | **Validated for seed 0** |
-| 02 | Parameter-matched smaller classical PINN | Next |
-| 03 | Classical Fourier-feature PINN | Planned |
-| 04 | 3-, 4-, and 5-qubit QAPINNs | Planned |
-| 05 | Fourier, gradient, kernel, loss-landscape, and entanglement analysis | Planned |
-| 06 | Heat-equation benchmark | Planned |
-| 07 | Reduced projectile CFD benchmark | Planned |
-| 08 | Technical report, slides, and final reproducibility package | In progress |
+| 02 | Parameter-matched smaller classical PINN | Done |
+| 03 | Classical Fourier-feature PINN | Done |
+| 04 | 3-, 4-, and 5-qubit QAPINNs | Done |
+| 05 | Fourier, gradient, kernel, loss-landscape, and entanglement analysis | Done |
+| 06 | Heat-equation benchmark | Done |
+| 07 | Reduced projectile CFD benchmark | Done |
+| 08 | Technical report, slides, and final reproducibility package | Done |
 
 ## Validated classical result
 
